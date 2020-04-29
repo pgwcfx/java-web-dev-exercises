@@ -15,10 +15,10 @@ public class Course {
         this.schoolSupplies = schoolSupplies;
     }
 
-    public String getSubjects() {
+    public String getSubject() {
         return subject;
     }
-    public void setSubjects(String aSubject){
+    public void setSubject(String aSubject){
         subject=aSubject;
     }
 

@@ -12,9 +12,18 @@ public class SchoolPractice {
         System.out.println(paul.getNumberOfCredits());
         System.out.println(paul.getGpa());
 
-        Course Calculus1 = new Course("Math",5.0,
+        Course calculus1 = new Course("Math",5.0,
                 new ArrayList<>(List.of("5.3 worksheet","5.4 worksheet","5.5 worksheet","5.3 quiz","5.3 practice problems")),
                 new ArrayList<>(List.of("Calculus textbook","notebooks")));
-        Teacher Adams = new Teacher("Ashley","Adams","Math",10.0);
+        System.out.println(calculus1.getSubject());
+        System.out.println(calculus1.getLengthInHours());
+        System.out.println(calculus1.getHomework());
+        System.out.println(calculus1.getSchoolSupplies());
+
+        Teacher adams = new Teacher("Ashley","Adams","Math",10.0);
+        System.out.println(adams.getFirstName());
+        System.out.println(adams.getLastName());
+        System.out.println(adams.getSubject());
+        System.out.println(adams.getYearsTeaching());
     }
 }
