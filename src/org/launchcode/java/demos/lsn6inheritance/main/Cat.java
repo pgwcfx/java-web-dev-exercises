@@ -1,13 +1,10 @@
-package org.launchcode.java.demos.lsn6inheritance;
+package org.launchcode.java.demos.lsn6inheritance.main;
 
 public class Cat {
 
     private boolean tired = false;
     private boolean hungry = false;
     private double weight;
-
-    // The biological family for all cat species
-    private String family = "Felidae";
 
     public Cat (double aWeight) {
         weight = aWeight;
@@ -40,7 +37,8 @@ public class Cat {
     }
 
     public String getFamily() {
-        return family;
+        // The biological family for all cat species
+        return "Felidae";
     }
 
     /**** Instance Methods ****/

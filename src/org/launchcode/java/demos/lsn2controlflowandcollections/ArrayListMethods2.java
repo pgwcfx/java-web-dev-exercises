@@ -14,9 +14,9 @@ public class ArrayListMethods2 {
         System.out.println("Please enter the word length for your search: ");
         int lengthSpecification = input.nextInt();
         input.close();
-        for (int i=0; i<stringForLengthInArrayListPractice.size(); i++) {
-            if (stringForLengthInArrayListPractice.get(i).length() == lengthSpecification) {
-                wordLengthExample.add(stringForLengthInArrayListPractice.get(i));
+        for (String s : stringForLengthInArrayListPractice) {
+            if (s.length() == lengthSpecification) {
+                wordLengthExample.add(s);
             }
         }
         return wordLengthExample;
